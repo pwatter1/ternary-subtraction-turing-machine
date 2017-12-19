@@ -1,11 +1,10 @@
 # ternary_subtraction_turing_machine
 
-## Construct a Turing machine that subtracts one ternary integer (base 3) from another. <br/>
+## Construct a Turing machine that subtracts one base 3 integer from another. <br/>
 
 An input will be of the form X#Y, where X and Y are elements of {0, 1, 2}+. 
-<br/>
 Your Turing machine must be a single tape, one way infinite, deterministic Turing machine. 
-<br/> For this program you can use the left, right, and stay directives.
+For this program you can use the left, right, and stay directives.
 When the Turing machine completes the tape should contain Z, where Z = X - Y. You do not need to
 delete X#Y from the tape, you can simply position the Turing machine read/write head at the
 beginning of Z.
